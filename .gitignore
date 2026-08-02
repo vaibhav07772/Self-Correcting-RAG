@@ -1,0 +1,65 @@
+# ---------- Python Cache ----------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ---------- Virtual Environments ----------
+venv/
+env/
+.venv/
+self_correcting_rag/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------- API Keys & Secrets (MOST IMPORTANT) ----------
+.env
+*.env
+.env.local
+.env.*.local
+
+# ---------- Vector Database (Heavy) ----------
+chroma_db/
+*.db
+*.sqlite3
+
+# ---------- Logs ----------
+logs/
+*.log
+
+# ---------- IDE & OS Files ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------- Data Files (if large or private) ----------
+data/*.pdf
+data/*.txt
+!data/sample.pdf   # Agar koi sample file include karna hai toh exception
+
+# ---------- Jupyter Notebooks ----------
+.ipynb_checkpoints/
+*.ipynb
+
+# ---------- Temp Files ----------
+*.tmp
+*.temp
+*.cache
+
+# ---------- Model Files ----------
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.h5
