@@ -63,3 +63,4 @@ data/*.txt
 *.onnx
 *.pt
 *.h5
+README_Hinglish.md
